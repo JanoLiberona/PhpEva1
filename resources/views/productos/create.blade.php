@@ -18,7 +18,7 @@
     {{Form::label('categoria', 'Categoría');}}
     {{Form::text('categoria');}}<br><br>
     {{Form::label('sucursal', 'Sucursal');}}
-    {{Form::select('size', ['1' => 'Alpha', '2' => 'Beta', '3' => 'Gama'], null, ['placeholder' => 'Selecciona una sucursal']);}}<br><br>
+    {{Form::select('sucursal', ['1' => 'Alpha', '2' => 'Beta', '3' => 'Gama'], null, ['placeholder' => 'Selecciona una sucursal']);}}<br><br>
     {{Form::label('descripcion', 'Descripción');}}
     {{Form::text('descripcion');}}<br><br>
     {{Form::label('cantidad', 'Cantidad');}}

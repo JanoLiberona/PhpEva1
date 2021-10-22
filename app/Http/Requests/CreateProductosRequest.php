@@ -27,7 +27,7 @@ class CreateProductosRequest extends FormRequest
             'codigoProducto' => 'required|string',
             'nombreProducto' => 'required|string|max:200|min:3',
             'categoria' => 'required|string|max:20|min:3',
-            'sucursal' => 'required|array|size=1',
+            'sucursal' => 'required|int|max:3|min:1',
             'descripcion' => 'required|string|max:200|min:3',
             'cantidad' => 'required|int',
             'precioVenta' => 'required|string|max:20|min:3'

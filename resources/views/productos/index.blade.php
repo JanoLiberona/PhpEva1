@@ -20,7 +20,7 @@
     {{Form::label('nombreProducto', 'Nombre de Producto')}}
     {{Form::text('nombreProducto', $request->input('nombreProducto'));}}
     {{Form::label('sucursal', 'Sucursal');}}
-    {{Form::select('size', ['1' => 'Alpha', '2' => 'Beta', '3' => 'Gama'], null, ['placeholder' => 'Selecciona una sucursal']);}}
+    {{Form::select('sucursal', ['1' => 'Alpha', '2' => 'Beta', '3' => 'Gama'], null, ['placeholder' => 'Selecciona una sucursal'])}}
     {{Form::submit('Consultar')}}<br><br>
     {!! Form::close() !!}
 
